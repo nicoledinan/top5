@@ -1,0 +1,237 @@
+body {
+  margin: 0;
+}
+
+
+
+h1 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 75px;
+  line-height: 88px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+
+}
+
+.bckg-img-1 {
+  background: url(images/bagelstreet.jpg);
+  height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+}
+
+.bckg-img-2 {
+  background: url(images/brenens.jpg);
+  height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+}
+
+.bckg-img-3 {
+  background: url(images/holyguacamole.jpg);
+  height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+}
+
+.bckg-img-4 {
+  background: url(images/west82.jpg);
+  height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+}
+
+.bckg-img-5 {
+  background: url(images/chipotle.jpg);
+  height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+}
+
+
+
+.heading {
+  padding-top: 50px;
+
+}
+
+.heading p {
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 10px;
+  margin-bottom: 0;
+}
+
+h2 {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 85px;
+  padding-top:370px;
+  padding-left: 110px;
+}
+
+.padding {
+  padding-left: 110px;
+  padding-right: 110px;
+}
+
+.padding-top-bottom {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.description {
+  padding-top: 20px;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  padding-top: 30px;
+}
+
+.caption {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  padding-top: 10px;
+  margin-bottom: 0;
+}
+
+.map-head {
+  padding-top: 0;
+}
+
+/* .map {
+  background-color: #333333;
+  color: #ffffff;
+} */
+
+#map {
+  padding: 0;
+  height: 500px;
+}
+
+h4 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  /* line-height: 20px; */
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.map-btns {
+  margin-bottom: 10px;
+}
+
+hr {
+  border-color: #333333;
+  max-width: 90%;
+}
+
+.footer-txt {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #FFFFFF;
+  text-align: center;
+  margin:0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer {
+  background-color: #333333;
+}
+
+
+
+
+
+
+
+
+
+
+/* medium */
+@media only screen and (max-width: 940px) {
+  h2 {
+    font-size: 65px;
+    line-height: 60px;
+    padding-top: 300px;
+  }
+
+  .bckg-img-1, .bckg-img-2, .bckg-img-3, .bckg-img-4, .bckg-img-5 {
+    height: 350px;
+  }
+}
+
+/* small */
+@media only screen and (max-width: 768px) {
+  h2 {
+    font-size: 45px;
+    line-height: 60px;
+    padding-top: 205px;
+  }
+
+  .bckg-img-1, .bckg-img-2, .bckg-img-3, .bckg-img-4, .bckg-img-5 {
+    height: 250px;
+  }
+}
+
+/* extra small */
+@media only screen and (max-width: 635px) {
+  h2 {
+    font-size: 40px;
+    line-height: 60px;
+    padding-top: 209px;
+    padding-left: 50px;
+  }
+
+  .padding {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .bckg-img-1, .bckg-img-2, .bckg-img-3, .bckg-img-4, .bckg-img-5 {
+    height: 250px;
+  }
+}

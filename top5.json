@@ -1,0 +1,74 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Holy Guacamole",
+        "address": "E Union St, Athens, OH 45701"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         -82.100678, 39.327454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "West 82",
+        "address": "1 Park Pl, Athens, OH 45701"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.10201561450958,
+          39.32484498681804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Brenen's",
+        "address": "38 S Court St, Athens, OH 45701"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.10120558738708,
+          39.32805472826546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chipotle",
+        "address": "41 S Court St, Athens, OH 45701"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.1014791727066,
+          39.32795098973374
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bagel Street Deli",
+        "address": "27 S Court St, Athens, OH 45701"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.10143491625786,
+          39.32828295249356
+        ]
+      }
+    }
+  ]
+}
